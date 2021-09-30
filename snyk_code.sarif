@@ -1,0 +1,7 @@
+FailedToRunTestError: Failed to run 'code test'
+    at Object.test (/usr/local/lib/node_modules/snyk/src/lib/plugins/sast/index.ts:63:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.testEcosystem (/usr/local/lib/node_modules/snyk/src/lib/ecosystems/test.ts:22:37)
+    at test (/usr/local/lib/node_modules/snyk/src/cli/commands/test/index.ts:58:29)
+    at runCommand (/usr/local/lib/node_modules/snyk/src/cli/index.ts:57:25)
+    at main (/usr/local/lib/node_modules/snyk/src/cli/index.ts:312:11)
